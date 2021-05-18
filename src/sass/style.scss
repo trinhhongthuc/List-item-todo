@@ -1,0 +1,45 @@
+.heading {
+    font-size: 16px;
+    color: #fff;
+    padding: 8px 12px;
+    text-transform: capitalize;
+    background-color: #ce5757;
+}
+.body {
+    font-size: 16px;
+    text-transform: capitalize;
+    padding: 8px 12px;
+}
+.wrapper {
+    &-box-item {
+        background-color: rgb(235, 176, 176);
+        height: 280px;
+        margin: 15px 0;
+    }
+}
+
+.wrapper {
+    &-button {
+        margin: 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+    &-button-heading {
+        color: #4574d4;
+    }
+}
+
+.button {
+    padding: 8px 25px;
+    border: none;
+    // border-radius: 25px;
+    margin-top: 15px;
+    color: #4574d4;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.wrapper-button-heading-todo {
+    color: #4574d4;
+    text-align: center;
+}
