@@ -12,3 +12,10 @@ export const getDataSaga = () => {
     type: types.FETCH_DATA_SAGA,
   };
 };
+
+export const addSaga = (payload) => {
+  return {
+    type: types.ADD_DATA_SAGA,
+    payload: payload,
+  };
+};

@@ -3,6 +3,7 @@ import { connect } from "react-redux";
 
 // import types from "../redux/type";
 import { getDataSaga } from "../redux/actions";
+import BoxIconAdd from "./BoxIconAdd";
 import BoxItem from "./boxItem";
 
 const User = ({ Todo, FetchReducers }) => {
@@ -34,6 +35,7 @@ const User = ({ Todo, FetchReducers }) => {
           </div>
         </div>
       )}
+      {Todo.length > 0 && <BoxIconAdd />}
     </div>
   );
 };
